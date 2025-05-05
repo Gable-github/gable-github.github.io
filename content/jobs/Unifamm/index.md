@@ -1,10 +1,10 @@
 ---
-date: '2015-12-21'
-title: 'Creative Technologist Co-op'
-company: 'MullenLowe'
-location: 'Boston, MA'
-range: 'July - December 2015'
-url: 'https://us.mullenlowe.com/'
+date: '2021-07-15'
+title: 'Software Engineer Intern'
+company: 'Unifamm Trading Pte Ltd'
+location: 'Singapore, Singapore'
+range: 'July - Sept 2021'
+url: 'https://unifammtrading.com/'
 ---
 
 - Developed, maintained, and shipped production code for client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery

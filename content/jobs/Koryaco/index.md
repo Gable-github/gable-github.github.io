@@ -1,10 +1,10 @@
 ---
-date: '2017-12-21'
-title: 'UI Engineer Co-op'
-company: 'Apple'
-location: 'Cupertino, CA'
-range: 'July - December 2017'
-url: 'https://www.apple.com/music/'
+date: '2022-08-16'
+title: 'Software Engineer & Co-Founder'
+company: 'Korya Co.'
+location: 'Singapore, Singapore'
+range: 'September 2021 - September 2022'
+url: 'https://korya.co/'
 ---
 
 - Developed and styled interactive web applications for Apple Music using Ember and SCSS
