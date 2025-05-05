@@ -8,7 +8,7 @@ import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledJobsSection = styled.section`
-  max-width: 700px;
+  max-width: 1000px;
 
   .inner {
     display: flex;
@@ -21,7 +21,6 @@ const StyledJobsSection = styled.section`
     @media (min-width: 700px) {
       min-height: 340px;
     }
-  }
 `;
 
 const StyledTabList = styled.div`
