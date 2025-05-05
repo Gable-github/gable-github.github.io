@@ -5,7 +5,7 @@ module.exports = {
     title: 'Gabryel Soh',
     description:
       'Gabryel Soh is a CS junior who specializes in designing, developing and deploying exceptional (most recently AI/ML) features that serve hundreds of users.',
-    siteUrl: 'https://gable-github.github.com', // No trailing slash allowed!
+    siteUrl: 'https://gable-github.github.io', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@lostvegans',
   },
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Brittany Chiang',
-        short_name: 'Brittany Chiang',
+        name: 'Gabryel Soh',
+        short_name: 'Gabryel Soh',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
