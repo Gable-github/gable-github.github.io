@@ -1,7 +1,7 @@
 ---
 date: '2021-07-15'
 title: 'Software Engineer Intern'
-company: 'Unifamm Trading Pte Ltd'
+company: 'Unifamm'
 location: 'Singapore, Singapore'
 range: 'July - Sept 2021'
 url: 'https://unifammtrading.com/'
