@@ -61,12 +61,12 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Gabryel Soh.</h2>;
-  const three = <h3 className="big-heading">I build scalable AI/ML features.</h3>;
+  const three = <h3 className="big-heading">I build scalable AI/ML + backend sytems.</h3>;
   const four = (
     <>
       <p>
-        I’m a CS junior and a passionate software engineer. I specialize in designing, developing
-        and deploying exceptional (most recently AI/ML) features that serve hundreds of users!
+        I'm a CS junior and software engineer who loves designing and deploying impactful features —
+        from ML-powered tools to robust backend infrastructure — serving real users at scale.
         <br></br>
         <br></br>
         Currently, I’m building an AI-powered debugging assistant designed to integrate seamlessly

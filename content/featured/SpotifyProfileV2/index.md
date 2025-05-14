@@ -1,14 +1,17 @@
 ---
 date: '3'
-title: 'Build a Spotify Connected App'
-cover: './demo.png'
-external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
-cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
+title: 'Enterprise Video Summarization with Temporal Topic Clustering'
+cover: './webai_final.jpg'
+external: ''
+cta: ''
 tech:
-  - React
-  - Express
-  - Spotify API
-  - Styled Components
+  - OpenCV
+  - OpenAI Whisper
+  - HuggingFace Transformers
+  - BERTopic
+  - Python
+  - Docker
+  - AWS EC2
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+Served 1,000+ users with an AI video summarization pipeline that condensed 5-hour talks into 5-minute summaries using keyframe extraction and a custom hybrid clustering algorithm that corrected BERTopic’s non-chronological output via vector similarity and temporal heuristics. Deployed via Docker on AWS EC2.

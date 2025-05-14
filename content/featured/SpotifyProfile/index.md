@@ -1,15 +1,15 @@
 ---
 date: '2'
-title: 'Spotify Profile'
-cover: './demo.png'
-github: 'https://github.com/bchiang7/spotify-profile'
-external: 'https://spotify-profile.herokuapp.com/'
+title: 'Serverless NLP for Patient Feedback Analysis'
+cover: './pplm_new_3.jpg'
+github: ''
+external: ''
 tech:
-  - React
-  - Styled Components
-  - Express
-  - Spotify API
-  - Heroku
+  - Python
+  - AWS Lambda
+  - HuggingFace Transformers, Trainers, BERT Models
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+An NLP service for patient feedback, using a fine-tuned BERT model trained locally and deployed via AWS Lambda.
+
+Integrated with PPLM’s Power Automate for real-time classification in their workflow.
