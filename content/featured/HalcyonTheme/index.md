@@ -1,6 +1,6 @@
 ---
 date: '1'
-title: 'Agentic  App Generation Pipeline'
+title: 'Agentic App Generation Pipeline'
 cover: './demo.jpg'
 github: ''
 external: ''
