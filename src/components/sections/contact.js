@@ -5,7 +5,7 @@ import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledContactSection = styled.section`
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto 100px;
   text-align: center;
 
@@ -60,8 +60,11 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        Although I’m not currently looking for any new opportunities, my inbox is always open.
-        Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+        I'm currently seeking{' '}
+        <strong>final-year internship opportunities for the summer of 2025.</strong>
+        <br></br>
+        <br></br>
+        If you have any questions, opportunities, or just want to say hi, feel free to reach out!
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>

@@ -146,8 +146,9 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! I'm Gabryel — a backend developer passionate about building scalable AI and ML
-              features that create meaningful impact for users around the world.{' '}
+              Hello! I'm Gabryel — a backend developer passionate about building scalable systems
+              across AI/ML, APIs, and infrastructure. I enjoy designing and deploying impactful
+              features that solve real problems and serve users at scale.{' '}
               <span role="img" aria-label="globe">
                 🌍
               </span>
