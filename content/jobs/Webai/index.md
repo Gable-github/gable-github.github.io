@@ -7,6 +7,5 @@ range: 'Feburary 2025 - May 2025'
 url: 'https://webai.com/'
 ---
 
-- Developed, maintained, and shipped production code for client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery
-- Performed quality assurance tests on various sites to ensure cross-browser compatibility and mobile responsiveness
-- Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more
+- Led a team at **Open Project @ UC Berkeley** to build an **AI-powered video summarization pipeline** using **OpenCV, OpenAI Whisper, and HuggingFace Transformers,** serving 1,000+ end users in law, finance, and professional sectors.
+- **Reduced content review time by 10×**, converting **5-hour keynotes into 5-minute topic-based summaries** with **keyframes extracted in <10 minutes using EAST and pHash for visual deduplication.**
