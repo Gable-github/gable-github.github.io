@@ -5,6 +5,9 @@ on:
     branches:
       - main  # or 'master' or your deployment branch
 
+permissions:
+  contents: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -17,6 +20,14 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'  # or your preferred version
+
+      - name: Cache node modules
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
 
       - name: Install dependencies
         run: npm install
