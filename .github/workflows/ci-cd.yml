@@ -42,5 +42,5 @@ jobs:
 
       - name: Deploy to GitHub Pages
         run: |
-            npx gh-pages -d public -u github-actions[bot]\ <github-actions[bot]@users.noreply.github.com> -r https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+            npx gh-pages -d public -u "github-actions[bot] <github-actions[bot]@users.noreply.github.com>" -r "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
           
