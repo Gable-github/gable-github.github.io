@@ -24,15 +24,8 @@ jobs:
       - name: Build Gatsby site
         run: npm run build
 
-      - name: Configure git user
-        run: |
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
-
       - name: Deploy to GitHub Pages
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-            echo "GH_TOKEN is $GH_TOKEN"
-            npm run deploy
-        shell: bash
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
