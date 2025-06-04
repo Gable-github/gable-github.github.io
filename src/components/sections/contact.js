@@ -61,7 +61,7 @@ const Contact = () => {
 
       <p>
         I'm currently seeking{' '}
-        <strong>final-year internship opportunities for the summer of 2025.</strong>
+        <strong>final-year internship opportunities for Jan 2026 - Aug 2026.</strong>
         <br></br>
         <br></br>
         If you have any questions, opportunities, or just want to say hi, feel free to reach out!
