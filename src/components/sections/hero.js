@@ -66,11 +66,12 @@ const Hero = () => {
     <>
       <p>
         I'm a CS junior and software engineer who loves designing and deploying impactful features —
-        from ML-powered tools to robust backend infrastructure — serving real users at scale.
+        like ML-powered tools running on carefully considered backend infrastructure — serving real
+        users at scale.
         <br></br>
         <br></br>
         Currently, I’m building an AI-powered debugging assistant designed to integrate seamlessly
-        into your company’s CI/CD pipeline at{' '}
+        into your company’s CI/CD pipeline to improve dev productivity at{' '}
         <a href="https://metabob.com/" target="_blank" rel="noreferrer">
           metabob
         </a>

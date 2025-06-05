@@ -126,15 +126,14 @@ const About = () => {
   }, []);
 
   const skills = [
-    'Spring boot',
-    'Java',
+    'Java 17',
     'Python',
+    'Springboot',
     'FastAPI',
-    'HuggingFace',
+    'HuggingFace Models',
     'PostgreSQL',
     'Docker',
-    'AWS',
-    'Azure',
+    'AWS | Azure',
     'Ansible',
   ];
 

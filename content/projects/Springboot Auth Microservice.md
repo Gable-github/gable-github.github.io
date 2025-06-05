@@ -1,26 +1,18 @@
 ---
 date: '2025-06-04'
-title: 'Open Source: Springboot Auth Microservice'
+title: 'Open Source Contribution: auth-microservice'
 github: 'https://github.com/Gable-github/auth-microservice'
 external: 'https://gabryelsoh.com/personal-blog/posts/2025-06-04-springboot-auth-microservice/'
 tech:
-  - Spring Boot
+  - SpringBoot
   - Java 17
   - PostgreSQL
   - JWT
-  - AWS Secrets Manager
-  - AWS EC2
-  - Docker
+  - AWS EC2, Secrets Manager
+  - Docker, Docker Compose
   - Github Actions CI/CD
   - Maven
-  - Lombok
-  - Spring Security
-  - Spring Data JPA
-  - Spring Validation
-  - Spring Web
-  - Spring Test
-  - Spring Boot Actuator
-  - Spring Boot DevTools
+  - Spring Security, Data JPA, Web, JUnit
 company: 'Open Source Project'
 showInProjects: true
 ---
