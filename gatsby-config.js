@@ -7,7 +7,7 @@ module.exports = {
       'Gabryel Soh is a CS junior who specializes in designing, developing and deploying exceptional (most recently AI/ML) features that serve hundreds of users.',
     siteUrl: 'https://gable-github.github.io', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@lostvegans',
+    twitterUsername: '@gabryelsoh',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
