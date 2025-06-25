@@ -61,7 +61,7 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Gabryel Soh.</h2>;
-  const three = <h3 className="big-heading">I build scalable AI/ML + backend sytems.</h3>;
+  const three = <h3 className="big-heading">I love building and scaling backend + AI/ML stuff.</h3>;
   const four = (
     <>
       <p>
@@ -80,7 +80,7 @@ const Hero = () => {
     </>
   );
   const five = (
-    <a className="email-link" href="/gabryel_resume_140525.pdf" target="_blank" rel="noreferrer">
+    <a className="email-link" href="/gabryel_resume.pdf" target="_blank" rel="noreferrer">
       My Resume
     </a>
   );

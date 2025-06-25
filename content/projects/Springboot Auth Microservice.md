@@ -1,6 +1,6 @@
 ---
 date: '2025-06-04'
-title: 'Open Source Contribution: auth-microservice'
+title: 'Open Source Project: gable-github/auth-microservice'
 github: 'https://github.com/Gable-github/auth-microservice'
 external: 'https://gabryelsoh.com/personal-blog/posts/2025-06-04-springboot-auth-microservice/'
 tech:

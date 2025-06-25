@@ -14,6 +14,6 @@ company: '567-labs'
 showInProjects: true
 ---
 
-Contributed to [Instructor](https://github.com/567-labs/instructor) (3M+ downloads) bugfixing a unified provider model interface feature by implementing a provider-agnostic API key system that simplifies authentication across major LLM providers.
+Contributed to [Instructor](https://github.com/567-labs/instructor) _(3M+ downloads)_ bugfixing a unified provider model interface feature by implementing a provider-agnostic API key system that simplifies authentication across major LLM providers.
 
 Also added documentation for the new interface and integration patterns, including detailed examples and best practices for secure API key management.
