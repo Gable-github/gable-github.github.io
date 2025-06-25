@@ -10,6 +10,6 @@ company: 'Aikido security'
 showInProjects: true
 ---
 
-Contributed to [Opengrep](https://github.com/opengrep/opengrep/pull/294) _(130k+ downloads)_ creating the main install script to fetch the appropriate binary and create proper symlinks within the users mac and linux distros. This also allowed users to install and run opengrep within their CI/CD pipelines with ease.
+Contributed to [Opengrep](https://github.com/opengrep/opengrep/pull/294) _(130k+ downloads)_ creating the main install script to fetch the appropriate binary and create proper symlinks within the users of mac and linux distros. This also allowed them to install and run opengrep within their CI/CD pipelines with ease.
 
 Also added documentation to `README.md` for users to use the script by default.
