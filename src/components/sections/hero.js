@@ -59,19 +59,25 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Gabryel Soh.</h2>;
-  const three = <h3 className="big-heading">I love building and scaling backend + AI/ML stuff.</h3>;
+  const one = <h1>Its Gabriel with a y so its</h1>;
+  const two = <h2 className="big-heading">Gabryel.</h2>;
+  const three = (
+    <h3 className="big-heading">I like building and scaling backend + AI/ML stuff :)</h3>
+  );
   const four = (
     <>
       <p>
-        I'm a CS junior and software engineer who loves designing and deploying impactful features —
-        like ML-powered tools running on carefully considered backend infrastructure — serving real
-        users at scale.
+        I'm a CS junior / software engineer. I love tech. Think I found out when my pre-frontal
+        cortex fully developed. (And when I deleted instagram).
         <br></br>
         <br></br>
-        Currently, I’m building an AI-powered debugging assistant designed to integrate seamlessly
-        into your company’s CI/CD pipeline to improve dev productivity at{' '}
+        Its fun designing, building and deploying impactful features like ML-powered tools running
+        on stable backend infrastructure, serving real users at scale. I love my users, I love when
+        superusers love my stuff.
+        <br></br>
+        <br></br>
+        Currently building an AI-powered debugging assistant designed to integrate seamlessly into
+        client’s CI/CD pipeline to improve dev productivity at{' '}
         <a href="https://metabob.com/" target="_blank" rel="noreferrer">
           metabob
         </a>

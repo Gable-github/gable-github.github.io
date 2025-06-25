@@ -145,16 +145,14 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! I'm Gabryel — a backend developer passionate about building scalable systems
-              across AI/ML, APIs, and infrastructure. I enjoy designing and deploying impactful
-              features that solve real problems and serve users at scale.{' '}
-              <span role="img" aria-label="globe">
-                🌍
-              </span>
-            </p>
-
-            <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
+              My hobby is completing my &quot;real&quot; work then discovering things on github and
+              X and looking through issues and being able to be like hey I might be able to do this,
+              then getting bashed in the PR.
+              <br></br>
+              <br></br>I also like hooping, even though my knees are lowk bad
+              <br></br>
+              <br></br>
+              Worked at{' '}
               <a href="https://www.nasdaq.com/market-activity/stocks/orkt/">
                 a Nasdaq tech company
               </a>
@@ -164,7 +162,7 @@ const About = () => {
               <a href="https://korya.co/">my own company</a>.
             </p>
 
-            <p>Here are a few of my favourite technologies that I’ve been working with recently:</p>
+            <p>My favourite technologies:</p>
           </div>
 
           <ul className="skills-list">
