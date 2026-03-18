@@ -196,6 +196,10 @@ const StyledProject = styled.li`
       font-family: var(--font-mono);
       font-size: var(--fz-xs);
       white-space: nowrap;
+
+      @media (max-width: 768px) {
+        white-space: normal;
+      }
     }
 
     @media (max-width: 768px) {

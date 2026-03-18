@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Gabryel Soh',
     description:
-      'Gabryel Soh is a CS junior who specializes in designing, developing and deploying exceptional (most recently AI/ML) features that serve hundreds of users.',
+      'Gabryel Soh is a final-year CS student graduating in May 2027 who specializes in building and scaling backend systems and AI/ML products, most recently at Binance and joining Visa.',
     siteUrl: 'https://gable-github.github.io', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@gabryelsoh',

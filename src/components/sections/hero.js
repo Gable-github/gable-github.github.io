@@ -76,12 +76,15 @@ const Hero = () => {
         superusers love my stuff.
         <br></br>
         <br></br>
-        Currently building an AI-powered debugging assistant designed to integrate seamlessly into
-        client’s CI/CD pipeline to improve dev productivity at{' '}
-        <a href="https://metabob.com/" target="_blank" rel="noreferrer">
-          metabob
+        Most recently built a Kafka event-driven KYC workflow service at{' '}
+        <a href="https://www.binance.com/" target="_blank" rel="noreferrer">
+          Binance
         </a>
-        .
+        , and joining{' '}
+        <a href="https://www.visa.com/" target="_blank" rel="noreferrer">
+          Visa
+        </a>{' '}
+        next to work on backend systems and AI products.
       </p>
     </>
   );

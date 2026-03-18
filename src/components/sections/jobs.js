@@ -19,7 +19,7 @@ const StyledJobsSection = styled.section`
 
     // Prevent container from jumping
     @media (min-width: 700px) {
-      min-height: 340px;
+      min-height: 400px;
     }
 `;
 
@@ -85,11 +85,13 @@ const StyledTabButton = styled.button`
   }
   @media (max-width: 600px) {
     ${({ theme }) => theme.mixins.flexCenter};
+    width: fit-content;
     min-width: 120px;
     padding: 0 15px;
     border-left: 0;
     border-bottom: 2px solid var(--lightest-navy);
     text-align: center;
+    flex-shrink: 0;
   }
 
   &:hover,
@@ -108,20 +110,15 @@ const StyledHighlight = styled.div`
   border-radius: var(--border-radius);
   background: var(--green);
   transform: translateY(calc(${({ activeTabId }) => activeTabId} * var(--tab-height)));
-  transition: transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1),
+    width 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition-delay: 0.1s;
 
   @media (max-width: 600px) {
     top: auto;
     bottom: 0;
-    width: 100%;
-    max-width: var(--tab-width);
     height: 2px;
-    margin-left: 50px;
-    transform: translateX(calc(${({ activeTabId }) => activeTabId} * var(--tab-width)));
-  }
-  @media (max-width: 480px) {
-    margin-left: 25px;
+    transform: none;
   }
 `;
 
@@ -190,6 +187,7 @@ const Jobs = () => {
 
   const [activeTabId, setActiveTabId] = useState(0);
   const [tabFocus, setTabFocus] = useState(null);
+  const [highlightStyle, setHighlightStyle] = useState({});
   const tabs = useRef([]);
   const revealContainer = useRef(null);
   const prefersReducedMotion = usePrefersReducedMotion();
@@ -201,6 +199,24 @@ const Jobs = () => {
 
     sr.reveal(revealContainer.current, srConfig());
   }, []);
+
+  // Update highlight position/width for mobile (variable-width tabs)
+  useEffect(() => {
+    const updateHighlight = () => {
+      const activeTab = tabs.current[activeTabId];
+      if (activeTab && window.innerWidth <= 600) {
+        setHighlightStyle({
+          left: `${activeTab.offsetLeft}px`,
+          width: `${activeTab.offsetWidth}px`,
+        });
+      } else {
+        setHighlightStyle({});
+      }
+    };
+    updateHighlight();
+    window.addEventListener('resize', updateHighlight);
+    return () => window.removeEventListener('resize', updateHighlight);
+  }, [activeTabId]);
 
   const focusTab = () => {
     if (tabs.current[tabFocus]) {
@@ -265,7 +281,7 @@ const Jobs = () => {
                 </StyledTabButton>
               );
             })}
-          <StyledHighlight activeTabId={activeTabId} />
+          <StyledHighlight activeTabId={activeTabId} style={highlightStyle} />
         </StyledTabList>
 
         <StyledTabPanels>
