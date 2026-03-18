@@ -126,15 +126,15 @@ const About = () => {
   }, []);
 
   const skills = [
-    'Java 17',
+    'Java',
     'Python',
     'Springboot',
     'FastAPI',
-    'HuggingFace Models',
+    'Apache Kafka',
     'PostgreSQL',
+    'Redis',
     'Docker',
     'AWS | Azure',
-    'Ansible',
   ];
 
   return (
@@ -152,14 +152,14 @@ const About = () => {
               <br></br>I also like hooping, even though my knees are lowk bad
               <br></br>
               <br></br>
-              Worked at{' '}
+              Worked at <a href="https://www.binance.com/">Binance</a>,{' '}
               <a href="https://www.nasdaq.com/market-activity/stocks/orkt/">
                 a Nasdaq tech company
               </a>
-              , <a href="https://plannedparenthood.org/">a major US national healthcare provider</a>
-              , and <a href="https://webai.com/">an AI orchestration startup (Series A)</a>,{' '}
+              , <a href="https://webai.com/">an AI orchestration startup (Series A)</a>,{' '}
               <a href="https://metabob.com/">an enterprise AI startup</a> and{' '}
-              <a href="https://korya.co/">my own company</a>.
+              <a href="https://korya.co/">my own company</a>. Joining{' '}
+              <a href="https://www.visa.com/">Visa</a> next.
             </p>
 
             <p>My favourite technologies:</p>

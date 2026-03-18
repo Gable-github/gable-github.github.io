@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Gatsby Develop",
+      "runtimeExecutable": "/bin/bash",
+      "runtimeArgs": [
+        "-c",
+        "export PATH=$HOME/.nvm/versions/node/v18.20.8/bin:$PATH && npm run develop"
+      ],
+      "port": 8000
+    },
+    {
+      "name": "Gatsby Serve",
+      "runtimeExecutable": "/bin/bash",
+      "runtimeArgs": [
+        "-c",
+        "export PATH=$HOME/.nvm/versions/node/v18.20.8/bin:$PATH && npm run serve"
+      ],
+      "port": 9000
+    }
+  ]
+}
