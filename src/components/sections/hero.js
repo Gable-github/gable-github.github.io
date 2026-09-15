@@ -67,8 +67,8 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I'm a CS junior / software engineer. I love tech. Think I found out when my pre-frontal
-        cortex fully developed. (And when I deleted instagram).
+        I'm a final-year CS student / software engineer. I love tech. Think I found out when my
+        pre-frontal cortex fully developed. (And when I deleted instagram).
         <br></br>
         <br></br>
         Its fun designing, building and deploying impactful features like ML-powered tools running
@@ -76,15 +76,16 @@ const Hero = () => {
         superusers love my stuff.
         <br></br>
         <br></br>
-        Most recently built a Kafka event-driven KYC workflow service at{' '}
+        Most recently built a CI/CD observability and auto-remediation system for global payment
+        authorizations infra at{' '}
+        <a href="https://www.visa.com/" target="_blank" rel="noreferrer">
+          Visa
+        </a>
+        , and before that a Kafka event-driven KYC workflow service at{' '}
         <a href="https://www.binance.com/" target="_blank" rel="noreferrer">
           Binance
         </a>
-        , and joining{' '}
-        <a href="https://www.visa.com/" target="_blank" rel="noreferrer">
-          Visa
-        </a>{' '}
-        next to work on backend systems and AI products.
+        .
       </p>
     </>
   );

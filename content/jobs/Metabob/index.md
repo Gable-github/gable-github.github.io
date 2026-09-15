@@ -1,8 +1,8 @@
 ---
 date: '2025-05-12'
-title: 'Software Engineer Intern'
+title: 'Software Engineering Intern'
 company: 'Metabob'
-location: 'Singapore, Singapore'
+location: 'San Francisco, CA'
 range: 'May 2025 - August 2025'
 url: 'https://metabob.com/'
 ---

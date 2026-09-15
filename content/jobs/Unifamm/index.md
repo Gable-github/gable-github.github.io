@@ -1,6 +1,6 @@
 ---
 date: '2021-07-15'
-title: 'Software Engineer Intern'
+title: 'Software Engineering Intern'
 company: 'Unifamm'
 location: 'Singapore, Singapore'
 range: 'July - Sept 2021'

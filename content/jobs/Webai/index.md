@@ -1,6 +1,6 @@
 ---
 date: '2025-02-15'
-title: 'Software Engineer Intern'
+title: 'Software Engineering Intern'
 company: 'WebAI x Open Project @ UC Berkeley'
 location: 'Berkeley, CA'
 range: 'Feburary 2025 - May 2025'

@@ -152,14 +152,14 @@ const About = () => {
               <br></br>I also like hooping, even though my knees are lowk bad
               <br></br>
               <br></br>
-              Worked at <a href="https://www.binance.com/">Binance</a>,{' '}
+              Worked at <a href="https://www.visa.com/">Visa</a>,{' '}
+              <a href="https://www.binance.com/">Binance</a>,{' '}
               <a href="https://www.nasdaq.com/market-activity/stocks/orkt/">
                 a Nasdaq tech company
               </a>
               , <a href="https://webai.com/">an AI orchestration startup (Series A)</a>,{' '}
               <a href="https://metabob.com/">an enterprise AI startup</a> and{' '}
-              <a href="https://korya.co/">my own company</a>. Joining{' '}
-              <a href="https://www.visa.com/">Visa</a> next.
+              <a href="https://korya.co/">my own company</a>.
             </p>
 
             <p>My favourite technologies:</p>
