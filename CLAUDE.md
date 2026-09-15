@@ -17,6 +17,26 @@ npm run format           # Format with Prettier
 
 **Pre-commit hook:** Husky runs lint-staged on JS/CSS/JSON/MD files.
 
+## Deploying
+
+**Read the `update-site` skill before changing or deploying this site.** It covers
+the verification method, the content map, and the traps below in full.
+
+Two things that cost real time if not known up front:
+
+1. **Pushing to `main` does not update the live site.** The site is served from the
+   `gh-pages` branch. Publishing requires `npm run deploy`. Push and deploy are
+   independent steps; a change is live only when both have happened and you have
+   confirmed it against the live URL.
+2. **`static/CNAME` must not be deleted.** `gh-pages` defaults to `remove: "."` and
+   wipes the branch on every deploy, so the custom domain survives only because
+   `static/CNAME` is copied into the build output.
+
+Also: the homepage is client-rendered, so `public/index.html` has an empty `<body>`.
+Grepping it to verify copy changes returns nothing whether the edit worked or not —
+use the method in the skill. And run `npx gatsby clean` before building, since
+`gatsby build` leaves stale chunks in `public/`.
+
 ## Architecture
 
 **Gatsby v3 static site** — a personal portfolio with blog, using React 17, styled-components, and Markdown content.
